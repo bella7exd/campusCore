@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "45228980126",
+    "project_id": "career-55076",
+    "storage_bucket": "career-55076.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45228980126:android:beb0fb2cb01604db19088f",
+        "android_client_info": {
+          "package_name": "com.example.collage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF5gbyFglRqprUm_DD5WT4gWIpedu6xIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
