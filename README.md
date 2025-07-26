@@ -109,7 +109,8 @@ Hogwarts Campus Connect is a magical mobile application designed to enhance the 
     ```
 
 ## 🐞 Troubleshooting
-* **"RenderFlex overflowed by X pixels":** Adjust `SizedBox` heights, `Padding`, or use `Expanded` and `Flexible` widgets within `Row`/`Column` to give content more room.
+* **"RenderFlex overflowed by X pixels":** Adjust `SizedBox` heights, `Padding`, or use `Expand<img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/d525742d-e70a-43af-a566-6fdacd3f171a" />
+ed` and `Flexible` widgets within `Row`/`Column` to give content more room.
 * **"Could not find a generator for route...":** Check `main.dart`'s `routes` and `onGenerateRoute` for correct route names and arguments.
 * **"Unable to locate asset entry in pubspec.yaml":** Verify `pubspec.yaml` indentation, asset folder paths, and run `flutter pub get`.
 * **"Could not launch https...":** Ensure `AndroidManifest.xml` (for Android 11+) has the correct `<queries>` block for URL schemes.
@@ -117,3 +118,7 @@ Hogwarts Campus Connect is a magical mobile application designed to enhance the 
 * **Data Not Showing/Saving:** Double-check your Firestore Security Rules and ensure field names in your model classes (`Event`, `Alumni`, `Faculty`, `Goal`) exactly match the field names in your Firestore documents.
 ---
 **Accio App!** 🪄
+<img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/5504ef72-c091-4b65-9295-41ff3e4ab22a" />
+<img width="1920" height="1080" alt="12" src="https://github.com/user-attachments/assets/c9e88c42-ee77-498a-b67e-842d6259ab9f" />
+
+<img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/c6db0510-3e28-45a0-b007-1a22dcf2f9d5" />
