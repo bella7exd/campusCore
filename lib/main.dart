@@ -16,16 +16,14 @@ import 'home_screen.dart';
 import 'user_profile_screen.dart';
 import 'goal_task_manager_screen.dart';
 import 'add_edit_goal_screen.dart';
-import 'goal_model.dart'; // <--- IMPORTANT: Ensure this is imported for Goal type recognition
+import 'goal_model.dart'; 
 
 // Import the necessary screens for Alumni and Faculty (only detail screens remain here)
 import 'alumni_screen.dart';
 import 'alumni_detail_screen.dart'; // New
-// REMOVED: import 'add_edit_alumni_screen.dart'; // No longer needed
 
 import 'faculty_screen.dart';
 import 'faculty_detail_screen.dart'; // New
-// REMOVED: import 'add_edit_faculty_screen.dart'; // No longer needed
 
 import 'guidance_screen.dart'; // Placeholder screen
 import 'event_detail_screen.dart'; // Import the event detail screen
@@ -61,6 +59,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Campus Core',
+      debugShowCheckedModeBanner: false, 
       theme: ThemeData(
           scaffoldBackgroundColor: const Color.fromARGB(255, 237, 232, 232),
           primarySwatch: Colors.blue,
